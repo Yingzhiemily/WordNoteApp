@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WordNote</string>
+    <string name="about_us_text">Welcome to WordNote - your ultimate vocabulary companion! Quickly search for words. Simplify your learning journey with WordNote today!</string>
+    <string name="base_api_url">https://api.dictionaryapi.dev/api/v2/</string>
+    <string name="label_text">Enter Your Word</string>
+    <string name="placeholder_text">Enter Your Word</string>
+    <string name="page_empty_text">No word display</string>
+</resources>
