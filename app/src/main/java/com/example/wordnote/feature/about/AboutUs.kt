@@ -1,4 +1,4 @@
-package com.example.wordnote.ui.feature.about
+package com.example.wordnote.feature.about
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -17,7 +17,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.example.wordnote.R
-import com.example.wordnote.ui.components.bottomBar.BottomBarView
+import com.example.wordnote.components.bottomBar.BottomBarView
 import com.example.wordnote.ui.theme.Blue100
 import com.example.wordnote.ui.theme.Blue200
 import com.example.wordnote.ui.theme.Blue300

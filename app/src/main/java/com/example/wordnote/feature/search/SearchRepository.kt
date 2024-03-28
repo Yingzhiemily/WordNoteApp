@@ -1,7 +1,7 @@
-package com.example.wordnote.ui.feature.search
-import com.example.wordnote.ui.model.Definition
-import com.example.wordnote.ui.model.Meaning
-import com.example.wordnote.ui.model.WordResult
+package com.example.wordnote.feature.search
+import com.example.wordnote.model.Definition
+import com.example.wordnote.model.Meaning
+import com.example.wordnote.model.WordResult
 
 
 class SearchRepository(private val searchApi: SearchApi) {

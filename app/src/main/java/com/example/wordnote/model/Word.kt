@@ -1,4 +1,4 @@
-package com.example.wordnote.ui.model
+package com.example.wordnote.model
 
 data class WordResult(
     val word: String,

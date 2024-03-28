@@ -1,4 +1,4 @@
-package com.example.wordnote.ui.feature.search
+package com.example.wordnote.feature.search
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
@@ -22,7 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.example.wordnote.R
-import com.example.wordnote.ui.components.bottomBar.BottomBarView
+import com.example.wordnote.components.bottomBar.BottomBarView
 import com.example.wordnote.ui.theme.Blue200
 import com.example.wordnote.ui.theme.Blue300
 

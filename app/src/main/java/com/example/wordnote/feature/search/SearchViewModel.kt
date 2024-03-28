@@ -1,11 +1,11 @@
-package com.example.wordnote.ui.feature.search
+package com.example.wordnote.feature.search
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.wordnote.ui.model.WordResult
+import com.example.wordnote.model.WordResult
 import kotlinx.coroutines.launch
 
 class SearchViewModel(private val repository: SearchRepository) : ViewModel() {

@@ -1,4 +1,4 @@
-package com.example.wordnote.ui.components.bottomBar
+package com.example.wordnote.components.bottomBar
 
 import androidx.compose.material.BottomAppBar
 import androidx.compose.material.BottomNavigationItem
@@ -10,7 +10,7 @@ import androidx.navigation.NavController
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.example.wordnote.ui.navigation.ScreenRoute
+import com.example.wordnote.navigation.ScreenRoute
 
 @Composable
 fun BottomBarView(navHostController: NavHostController){

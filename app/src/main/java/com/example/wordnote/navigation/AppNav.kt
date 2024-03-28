@@ -1,14 +1,14 @@
-package com.example.wordnote.ui.navigation
+package com.example.wordnote.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.wordnote.ui.feature.about.AboutUsScreen
-import com.example.wordnote.ui.feature.search.SearchRepository
-import com.example.wordnote.ui.feature.search.SearchScreen
-import com.example.wordnote.ui.feature.search.SearchViewModel
+import com.example.wordnote.feature.about.AboutUsScreen
+import com.example.wordnote.feature.search.SearchRepository
+import com.example.wordnote.feature.search.SearchScreen
+import com.example.wordnote.feature.search.SearchViewModel
 
 @Composable
 fun AppNav(navHostController: NavHostController, searchRepository: SearchRepository) {

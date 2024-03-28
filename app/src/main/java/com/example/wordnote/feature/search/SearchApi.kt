@@ -1,7 +1,7 @@
-package com.example.wordnote.ui.feature.search
+package com.example.wordnote.feature.search
 
 import android.content.Context
-import com.example.wordnote.ui.model.WordResult
+import com.example.wordnote.model.WordResult
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

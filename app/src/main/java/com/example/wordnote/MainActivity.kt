@@ -11,9 +11,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.rememberNavController
-import com.example.wordnote.ui.feature.search.ApiClient
-import com.example.wordnote.ui.feature.search.SearchRepository
-import com.example.wordnote.ui.navigation.AppNav
+import com.example.wordnote.feature.search.ApiClient
+import com.example.wordnote.feature.search.SearchRepository
+import com.example.wordnote.navigation.AppNav
 import com.example.wordnote.ui.theme.WordNoteTheme
 
 class MainActivity : ComponentActivity() {
